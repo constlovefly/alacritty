@@ -1,0 +1,45 @@
+[font]
+# This section documents the [font] table of the configuration file.
+
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+
+# If the family is not specified, it will fall back to the value
+# specified for the normal font.
+# Default: { style = "Bold" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+
+# If the family is not specified, it will fall back to the value
+# specified for the normal font.
+# Default: { style = "Italic" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+
+# If the family is not specified, it will fall back to the value
+# specified for the normal font.
+# Default: { style = "Bold Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+
+# Font size in points.
+
+size= 15
+
+# Offset is the extra space around each character. y can be thought of 
+
+# Glyph offset determines the locations of the glyphs within their cells 
+# as modiflying the line spacing, and x as modiflying the letter spacing.
+# Default: {x =, y=0}
+
+# offset = { x = 0, y = 0 }
+
+# Glyph offset determines the locations of the glyphs within their cells 
+# with the default being at the bottom. Increasing x moves the glyph to 
+# the right, increasing y moves the glyph upward.
+
+# glyph_offset = { x = 0, y = 0 }
+
+# When true, Alacritty will use a custom built-in font for box drawing 
+# characters (Unicode points U+2500 - U+259F) and powerline symbols 
+# (Unicode points U+E0B0 - U+E0B3).
+# Default: true
+# builtin_box_drawing = true
+
+
